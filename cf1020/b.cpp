@@ -36,5 +36,6 @@ void solve(){
     for(auto v : a) {
         std::cout << v << " \n"[v == a.back()];
     }
-
 }
+
+//简单构造，前面x个按顺序加入0 ~ x - 1，保证出现x，后面倒序使x尽量多。
